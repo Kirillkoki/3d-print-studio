@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студия 3D печати</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#materials">Материалы</a></li>
+                <li><a href="#chat">Чат</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Добро пожаловать в студию 3D печати</h1>
+        <p>Мы предлагаем высококачественные услуги 3D печати с использованием различных материалов.</p>
+    </section>
+
+    <section id="materials">
+        <h2>Выберите материал для печати</h2>
+        <div class="materials-grid">
+            <div class="material">
+                <h3>PLA</h3>
+                <p>Биоразлагаемый пластик, идеальный для прототипирования.</p>
+            </div>
+            <div class="material">
+                <h3>ABS</h3>
+                <p>Прочный и долговечный материал для функциональных деталей.</p>
+            </div>
+            <div class="material">
+                <h3>PETG</h3>
+                <p>Ударопрочный и устойчивый к химическим воздействиям.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="chat">
+        <h2>Свяжитесь с нами</h2>
+        <form id="chat-form">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <footer id="contact">
+        <p>Контактная информация: email@example.com | +7 (123) 456-78-90</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
